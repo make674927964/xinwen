@@ -1,0 +1,135 @@
+@import url('base.css');
+/*body{*/
+    /*height:50rem;*/
+/*}*/
+section{
+    width:100%;
+    height:auto;
+    background: #fff;
+}
+header{
+    width:100%;
+    height:1.3rem;
+    background: #D44040;
+    padding-top: 0.2rem;
+}
+header > input{
+    width:80%;
+    height:0.9rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    display: block;
+    margin:0 auto;
+    border: none;
+    outline: none;
+    padding-left: 0.4rem;
+}
+#wrapper{
+    width:100%;
+    height:1.08rem;
+    border-bottom: 0.01rem solid #EBEBEB;
+    overflow: hidden;
+}
+#scroller{
+    width:24.6rem;
+    height:100%;
+    padding: 0 0.45rem;
+    overflow: hidden;
+    /*background: red;*/
+}
+#scroller li{
+    width: auto;
+    height: auto;
+    font-size: 0.48rem;
+    line-height: 1.08rem;
+    color: #000;
+    float: left;
+    padding-right: 0.76rem;
+}
+#scroller li:last-child{
+    padding-right: 0;
+}
+#scroller li.active{
+    color: #F85959;
+}
+.content{
+    width:100%;
+    height:auto;
+}
+.content>.list{
+    width:95%;
+    margin:0 auto;
+    height:auto;
+    border-bottom: 0.01rem solid #EBEBEB;
+    padding:0.1rem 0;
+    overflow: hidden;
+}
+.content>.list a{
+    width: 100%;
+    float: left;
+    display: block;
+    height: auto;
+}
+.left{
+    width:40%;
+    height:auto;
+    overflow: hidden;
+    padding: 0.1rem;
+    float: left;
+}
+.left img{
+    width:90%;
+    height:2rem;
+}
+.right{
+    width:60%;
+    height:auto;
+    padding: 0.1rem;
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+    color: #000;
+    font-weight: 500;
+    float: right;
+}
+.right>span{
+    width:auto;
+    height: auto;
+    font-size: 0.5rem;
+    /*line-height: 0.6rem;*/
+    color: #000;
+    font-weight: 500;
+    float: left;
+    padding-top: 0.28rem;
+}
+.nopic>a div{
+    width:100%;
+    height:1.5rem;
+    font-size: 0.5rem;
+    color: #000;
+    font-weight: 500;
+}
+.nopic>a span{
+    display: block;
+    width:auto;
+    height:auto;
+    font-size: 0.5rem;
+    color: #000;
+    font-weight: 500;
+}
+#add{
+    width:100%;
+    height:4rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #000;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.1);
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
